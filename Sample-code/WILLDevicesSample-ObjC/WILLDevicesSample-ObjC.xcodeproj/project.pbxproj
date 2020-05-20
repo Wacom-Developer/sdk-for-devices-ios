@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		894510811FDA94D40082BAD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 894510801FDA94D40082BAD2 /* AppDelegate.m */; };
+		894510841FDA94D40082BAD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894510831FDA94D40082BAD2 /* ViewController.m */; };
+		894510871FDA94D40082BAD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894510851FDA94D40082BAD2 /* Main.storyboard */; };
+		894510891FDA94D40082BAD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894510881FDA94D40082BAD2 /* Assets.xcassets */; };
+		8945108C1FDA94D40082BAD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8945108A1FDA94D40082BAD2 /* LaunchScreen.storyboard */; };
+		8945108F1FDA94D40082BAD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8945108E1FDA94D40082BAD2 /* main.m */; };
+		8945109D1FDA94F60082BAD2 /* WacomLicensing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894510981FDA94E50082BAD2 /* WacomLicensing.framework */; };
+		8945109E1FDA94F60082BAD2 /* WacomLicensing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 894510981FDA94E50082BAD2 /* WacomLicensing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8945109F1FDA94F60082BAD2 /* WILLDevices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894510971FDA94E50082BAD2 /* WILLDevices.framework */; };
+		894510A01FDA94F60082BAD2 /* WILLDevices.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 894510971FDA94E50082BAD2 /* WILLDevices.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		894510A11FDA94F60082BAD2 /* WILLDevicesCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894510951FDA94E50082BAD2 /* WILLDevicesCore.framework */; };
+		894510A21FDA94F60082BAD2 /* WILLDevicesCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 894510951FDA94E50082BAD2 /* WILLDevicesCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		894510A31FDA94F60082BAD2 /* WILLInk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894510961FDA94E50082BAD2 /* WILLInk.framework */; };
+		894510A41FDA94F60082BAD2 /* WILLInk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 894510961FDA94E50082BAD2 /* WILLInk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		894510AA1FDAA3140082BAD2 /* RealtimeInkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894510A91FDAA3140082BAD2 /* RealtimeInkViewController.m */; };
+		894510AD1FDAA3250082BAD2 /* ConnectToDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894510AC1FDAA3250082BAD2 /* ConnectToDeviceViewController.m */; };
+		894510B01FDAA33B0082BAD2 /* FileTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 894510AF1FDAA33B0082BAD2 /* FileTransferViewController.m */; };
+		894510B31FDAA3590082BAD2 /* RenderingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 894510B21FDAA3590082BAD2 /* RenderingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		894510A51FDA94F60082BAD2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				894510A21FDA94F60082BAD2 /* WILLDevicesCore.framework in Embed Frameworks */,
+				894510A01FDA94F60082BAD2 /* WILLDevices.framework in Embed Frameworks */,
+				8945109E1FDA94F60082BAD2 /* WacomLicensing.framework in Embed Frameworks */,
+				894510A41FDA94F60082BAD2 /* WILLInk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8945107C1FDA94D40082BAD2 /* WILLDevicesSample-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WILLDevicesSample-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8945107F1FDA94D40082BAD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		894510801FDA94D40082BAD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		894510821FDA94D40082BAD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		894510831FDA94D40082BAD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		894510861FDA94D40082BAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		894510881FDA94D40082BAD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8945108B1FDA94D40082BAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8945108D1FDA94D40082BAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8945108E1FDA94D40082BAD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		894510951FDA94E50082BAD2 /* WILLDevicesCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WILLDevicesCore.framework; path = ../../../sdk/WILLDevicesCore.framework; sourceTree = "<group>"; };
+		894510961FDA94E50082BAD2 /* WILLInk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WILLInk.framework; path = ../../../sdk/WILLInk.framework; sourceTree = "<group>"; };
+		894510971FDA94E50082BAD2 /* WILLDevices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WILLDevices.framework; path = ../../../sdk/WILLDevices.framework; sourceTree = "<group>"; };
+		894510981FDA94E50082BAD2 /* WacomLicensing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WacomLicensing.framework; path = ../../../sdk/WacomLicensing.framework; sourceTree = "<group>"; };
+		894510A71FDA95150082BAD2 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		894510A81FDAA3140082BAD2 /* RealtimeInkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealtimeInkViewController.h; sourceTree = "<group>"; };
+		894510A91FDAA3140082BAD2 /* RealtimeInkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealtimeInkViewController.m; sourceTree = "<group>"; };
+		894510AB1FDAA3250082BAD2 /* ConnectToDeviceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectToDeviceViewController.h; sourceTree = "<group>"; };
+		894510AC1FDAA3250082BAD2 /* ConnectToDeviceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectToDeviceViewController.m; sourceTree = "<group>"; };
+		894510AE1FDAA33B0082BAD2 /* FileTransferViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileTransferViewController.h; sourceTree = "<group>"; };
+		894510AF1FDAA33B0082BAD2 /* FileTransferViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileTransferViewController.m; sourceTree = "<group>"; };
+		894510B11FDAA3590082BAD2 /* RenderingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RenderingView.h; sourceTree = "<group>"; };
+		894510B21FDAA3590082BAD2 /* RenderingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RenderingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		894510791FDA94D40082BAD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894510A11FDA94F60082BAD2 /* WILLDevicesCore.framework in Frameworks */,
+				8945109F1FDA94F60082BAD2 /* WILLDevices.framework in Frameworks */,
+				8945109D1FDA94F60082BAD2 /* WacomLicensing.framework in Frameworks */,
+				894510A31FDA94F60082BAD2 /* WILLInk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		894510731FDA94D40082BAD2 = {
+			isa = PBXGroup;
+			children = (
+				8945107E1FDA94D40082BAD2 /* WILLDevicesSample-ObjC */,
+				8945107D1FDA94D40082BAD2 /* Products */,
+				894510A61FDA95150082BAD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8945107D1FDA94D40082BAD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8945107C1FDA94D40082BAD2 /* WILLDevicesSample-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8945107E1FDA94D40082BAD2 /* WILLDevicesSample-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				8945107F1FDA94D40082BAD2 /* AppDelegate.h */,
+				894510801FDA94D40082BAD2 /* AppDelegate.m */,
+				894510821FDA94D40082BAD2 /* ViewController.h */,
+				894510831FDA94D40082BAD2 /* ViewController.m */,
+				894510A81FDAA3140082BAD2 /* RealtimeInkViewController.h */,
+				894510A91FDAA3140082BAD2 /* RealtimeInkViewController.m */,
+				894510AB1FDAA3250082BAD2 /* ConnectToDeviceViewController.h */,
+				894510AC1FDAA3250082BAD2 /* ConnectToDeviceViewController.m */,
+				894510AE1FDAA33B0082BAD2 /* FileTransferViewController.h */,
+				894510AF1FDAA33B0082BAD2 /* FileTransferViewController.m */,
+				894510B11FDAA3590082BAD2 /* RenderingView.h */,
+				894510B21FDAA3590082BAD2 /* RenderingView.m */,
+				894510851FDA94D40082BAD2 /* Main.storyboard */,
+				894510881FDA94D40082BAD2 /* Assets.xcassets */,
+				8945108A1FDA94D40082BAD2 /* LaunchScreen.storyboard */,
+				8945108D1FDA94D40082BAD2 /* Info.plist */,
+				8945108E1FDA94D40082BAD2 /* main.m */,
+				894510981FDA94E50082BAD2 /* WacomLicensing.framework */,
+				894510971FDA94E50082BAD2 /* WILLDevices.framework */,
+				894510951FDA94E50082BAD2 /* WILLDevicesCore.framework */,
+				894510961FDA94E50082BAD2 /* WILLInk.framework */,
+			);
+			path = "WILLDevicesSample-ObjC";
+			sourceTree = "<group>";
+		};
+		894510A61FDA95150082BAD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				894510A71FDA95150082BAD2 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8945107B1FDA94D40082BAD2 /* WILLDevicesSample-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894510921FDA94D40082BAD2 /* Build configuration list for PBXNativeTarget "WILLDevicesSample-ObjC" */;
+			buildPhases = (
+				894510781FDA94D40082BAD2 /* Sources */,
+				894510791FDA94D40082BAD2 /* Frameworks */,
+				8945107A1FDA94D40082BAD2 /* Resources */,
+				894510A51FDA94F60082BAD2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WILLDevicesSample-ObjC";
+			productName = "WILLDevicesSample-ObjC";
+			productReference = 8945107C1FDA94D40082BAD2 /* WILLDevicesSample-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		894510741FDA94D40082BAD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Wacom;
+				TargetAttributes = {
+					8945107B1FDA94D40082BAD2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 894510771FDA94D40082BAD2 /* Build configuration list for PBXProject "WILLDevicesSample-ObjC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 894510731FDA94D40082BAD2;
+			productRefGroup = 8945107D1FDA94D40082BAD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8945107B1FDA94D40082BAD2 /* WILLDevicesSample-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8945107A1FDA94D40082BAD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8945108C1FDA94D40082BAD2 /* LaunchScreen.storyboard in Resources */,
+				894510891FDA94D40082BAD2 /* Assets.xcassets in Resources */,
+				894510871FDA94D40082BAD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		894510781FDA94D40082BAD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894510841FDA94D40082BAD2 /* ViewController.m in Sources */,
+				894510B01FDAA33B0082BAD2 /* FileTransferViewController.m in Sources */,
+				894510AD1FDAA3250082BAD2 /* ConnectToDeviceViewController.m in Sources */,
+				8945108F1FDA94D40082BAD2 /* main.m in Sources */,
+				894510AA1FDAA3140082BAD2 /* RealtimeInkViewController.m in Sources */,
+				894510811FDA94D40082BAD2 /* AppDelegate.m in Sources */,
+				894510B31FDAA3590082BAD2 /* RenderingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		894510851FDA94D40082BAD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				894510861FDA94D40082BAD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8945108A1FDA94D40082BAD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8945108B1FDA94D40082BAD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		894510901FDA94D40082BAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		894510911FDA94D40082BAD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		894510931FDA94D40082BAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../sdk\"";
+				INFOPLIST_FILE = "WILLDevicesSample-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wacomgss.WILLDevicesSample-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		894510941FDA94D40082BAD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../sdk\"";
+				INFOPLIST_FILE = "WILLDevicesSample-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wacomgss.WILLDevicesSample-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		894510771FDA94D40082BAD2 /* Build configuration list for PBXProject "WILLDevicesSample-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894510901FDA94D40082BAD2 /* Debug */,
+				894510911FDA94D40082BAD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894510921FDA94D40082BAD2 /* Build configuration list for PBXNativeTarget "WILLDevicesSample-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894510931FDA94D40082BAD2 /* Debug */,
+				894510941FDA94D40082BAD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 894510741FDA94D40082BAD2 /* Project object */;
+}

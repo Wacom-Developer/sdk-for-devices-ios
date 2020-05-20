@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893E710E1EF01D3D0042457A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893E710D1EF01D3D0042457A /* AppDelegate.swift */; };
+		893E71101EF01D3D0042457A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893E710F1EF01D3D0042457A /* ViewController.swift */; };
+		893E71131EF01D3D0042457A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893E71111EF01D3D0042457A /* Main.storyboard */; };
+		893E71181EF01D3D0042457A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893E71161EF01D3D0042457A /* LaunchScreen.storyboard */; };
+		894982ED1F2F213A00949A52 /* RenderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894982EC1F2F213A00949A52 /* RenderingView.swift */; };
+		8954AC75215A9711004C1FBF /* WacomLicensing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8954AC6D215A960D004C1FBF /* WacomLicensing.framework */; };
+		8954AC76215A9711004C1FBF /* WacomLicensing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8954AC6D215A960D004C1FBF /* WacomLicensing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8954AC77215A9711004C1FBF /* WILLDevices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8954AC70215A960E004C1FBF /* WILLDevices.framework */; };
+		8954AC78215A9711004C1FBF /* WILLDevices.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8954AC70215A960E004C1FBF /* WILLDevices.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8954AC79215A9711004C1FBF /* WILLDevicesCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8954AC6E215A960D004C1FBF /* WILLDevicesCore.framework */; };
+		8954AC7A215A9711004C1FBF /* WILLDevicesCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8954AC6E215A960D004C1FBF /* WILLDevicesCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8954AC7B215A9711004C1FBF /* WILLInk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8954AC6F215A960E004C1FBF /* WILLInk.framework */; };
+		8954AC7C215A9711004C1FBF /* WILLInk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8954AC6F215A960E004C1FBF /* WILLInk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89EBBA471F1D0DF500B90144 /* ConnectToDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EBBA461F1D0DF500B90144 /* ConnectToDeviceViewController.swift */; };
+		89EBBA491F1D0E0D00B90144 /* RealtimeInkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EBBA481F1D0E0D00B90144 /* RealtimeInkViewController.swift */; };
+		89EBBA4B1F1D0E2000B90144 /* FileTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EBBA4A1F1D0E2000B90144 /* FileTransferViewController.swift */; };
+		89F26F491F1E25EA00DA9393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F26F481F1E25EA00DA9393 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89AC38E41EF12A7100727162 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8954AC7A215A9711004C1FBF /* WILLDevicesCore.framework in Embed Frameworks */,
+				8954AC78215A9711004C1FBF /* WILLDevices.framework in Embed Frameworks */,
+				8954AC76215A9711004C1FBF /* WacomLicensing.framework in Embed Frameworks */,
+				8954AC7C215A9711004C1FBF /* WILLInk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		893E710A1EF01D3D0042457A /* WILLDevicesSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WILLDevicesSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893E710D1EF01D3D0042457A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		893E710F1EF01D3D0042457A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		893E71121EF01D3D0042457A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893E71171EF01D3D0042457A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		893E71191EF01D3D0042457A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894982EC1F2F213A00949A52 /* RenderingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderingView.swift; sourceTree = "<group>"; };
+		8954AC6D215A960D004C1FBF /* WacomLicensing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WacomLicensing.framework; path = ../../sdk/WacomLicensing.framework; sourceTree = "<group>"; };
+		8954AC6E215A960D004C1FBF /* WILLDevicesCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WILLDevicesCore.framework; path = ../../sdk/WILLDevicesCore.framework; sourceTree = "<group>"; };
+		8954AC6F215A960E004C1FBF /* WILLInk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WILLInk.framework; path = ../../sdk/WILLInk.framework; sourceTree = "<group>"; };
+		8954AC70215A960E004C1FBF /* WILLDevices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WILLDevices.framework; path = ../../sdk/WILLDevices.framework; sourceTree = "<group>"; };
+		89EBBA461F1D0DF500B90144 /* ConnectToDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectToDeviceViewController.swift; sourceTree = "<group>"; };
+		89EBBA481F1D0E0D00B90144 /* RealtimeInkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeInkViewController.swift; sourceTree = "<group>"; };
+		89EBBA4A1F1D0E2000B90144 /* FileTransferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTransferViewController.swift; sourceTree = "<group>"; };
+		89F26F481F1E25EA00DA9393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893E71071EF01D3D0042457A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8954AC79215A9711004C1FBF /* WILLDevicesCore.framework in Frameworks */,
+				8954AC77215A9711004C1FBF /* WILLDevices.framework in Frameworks */,
+				8954AC75215A9711004C1FBF /* WacomLicensing.framework in Frameworks */,
+				8954AC7B215A9711004C1FBF /* WILLInk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893E71011EF01D3D0042457A = {
+			isa = PBXGroup;
+			children = (
+				8954AC6D215A960D004C1FBF /* WacomLicensing.framework */,
+				8954AC70215A960E004C1FBF /* WILLDevices.framework */,
+				8954AC6E215A960D004C1FBF /* WILLDevicesCore.framework */,
+				8954AC6F215A960E004C1FBF /* WILLInk.framework */,
+				893E710C1EF01D3D0042457A /* WILLDevicesSample */,
+				893E710B1EF01D3D0042457A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893E710B1EF01D3D0042457A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893E710A1EF01D3D0042457A /* WILLDevicesSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893E710C1EF01D3D0042457A /* WILLDevicesSample */ = {
+			isa = PBXGroup;
+			children = (
+				89F26F481F1E25EA00DA9393 /* Assets.xcassets */,
+				89EBBA4A1F1D0E2000B90144 /* FileTransferViewController.swift */,
+				893E710D1EF01D3D0042457A /* AppDelegate.swift */,
+				89EBBA481F1D0E0D00B90144 /* RealtimeInkViewController.swift */,
+				89EBBA461F1D0DF500B90144 /* ConnectToDeviceViewController.swift */,
+				894982EC1F2F213A00949A52 /* RenderingView.swift */,
+				893E710F1EF01D3D0042457A /* ViewController.swift */,
+				893E71111EF01D3D0042457A /* Main.storyboard */,
+				893E71161EF01D3D0042457A /* LaunchScreen.storyboard */,
+				893E71191EF01D3D0042457A /* Info.plist */,
+			);
+			path = WILLDevicesSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893E71091EF01D3D0042457A /* WILLDevicesSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893E711C1EF01D3D0042457A /* Build configuration list for PBXNativeTarget "WILLDevicesSample" */;
+			buildPhases = (
+				893E71061EF01D3D0042457A /* Sources */,
+				893E71071EF01D3D0042457A /* Frameworks */,
+				893E71081EF01D3D0042457A /* Resources */,
+				89AC38E41EF12A7100727162 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WILLDevicesSample;
+			productName = WILLDevicesSample;
+			productReference = 893E710A1EF01D3D0042457A /* WILLDevicesSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893E71021EF01D3D0042457A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Wacom;
+				TargetAttributes = {
+					893E71091EF01D3D0042457A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HP936XN592;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 893E71051EF01D3D0042457A /* Build configuration list for PBXProject "WILLDevicesSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893E71011EF01D3D0042457A;
+			productRefGroup = 893E710B1EF01D3D0042457A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893E71091EF01D3D0042457A /* WILLDevicesSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893E71081EF01D3D0042457A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893E71181EF01D3D0042457A /* LaunchScreen.storyboard in Resources */,
+				89F26F491F1E25EA00DA9393 /* Assets.xcassets in Resources */,
+				893E71131EF01D3D0042457A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893E71061EF01D3D0042457A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EBBA471F1D0DF500B90144 /* ConnectToDeviceViewController.swift in Sources */,
+				893E71101EF01D3D0042457A /* ViewController.swift in Sources */,
+				894982ED1F2F213A00949A52 /* RenderingView.swift in Sources */,
+				89EBBA4B1F1D0E2000B90144 /* FileTransferViewController.swift in Sources */,
+				89EBBA491F1D0E0D00B90144 /* RealtimeInkViewController.swift in Sources */,
+				893E710E1EF01D3D0042457A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		893E71111EF01D3D0042457A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893E71121EF01D3D0042457A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		893E71161EF01D3D0042457A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893E71171EF01D3D0042457A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893E711A1EF01D3D0042457A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		893E711B1EF01D3D0042457A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893E711D1EF01D3D0042457A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HP936XN592;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/../../sdk\"",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = WILLDevicesSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wacom.WILLDevicesSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		893E711E1EF01D3D0042457A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = HP936XN592;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/../../sdk\"",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = WILLDevicesSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wacom.WILLDevicesSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893E71051EF01D3D0042457A /* Build configuration list for PBXProject "WILLDevicesSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893E711A1EF01D3D0042457A /* Debug */,
+				893E711B1EF01D3D0042457A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893E711C1EF01D3D0042457A /* Build configuration list for PBXNativeTarget "WILLDevicesSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893E711D1EF01D3D0042457A /* Debug */,
+				893E711E1EF01D3D0042457A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893E71021EF01D3D0042457A /* Project object */;
+}
