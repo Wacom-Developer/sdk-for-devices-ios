@@ -1,4 +1,4 @@
-# CDL iOS
+# Wacom Ink SDK for devices - iOS
 
 ## Version 1.0.21
 

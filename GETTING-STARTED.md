@@ -17,7 +17,7 @@ Download the SDKs from https://developer.wacom.com/developer-dashboard
 
 * login using your Wacom ID
 * Select **Downloads for devices**
-* Download **CDL for iOS**
+* Download **Wacom Ink SDK for devices for iOS**
 * Accept the End User License Agreement to use the SDK
 
 The downloaded Zip file for CDL for iOS contains the SDK with documentation.
