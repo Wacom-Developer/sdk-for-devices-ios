@@ -272,7 +272,7 @@ The class containing the service must conform to the ```StrokeDataReceiver``` pr
 
 In the sample application the rendering of ink data is achieved using the WILL SDK for Ink.
 For details of this process see the documentation and samples:  
-[WILL SDK for Ink - Rendering](http://will-docs.westeurope.cloudapp.azure.com/sdk-for-ink/docs/2.0.0/rendering)
+[WILL SDK for Ink - Rendering](http://developer-docs.wacom.com/sdk-for-ink/docs/2.0.0/rendering)
 
 ---
 
