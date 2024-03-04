@@ -2,6 +2,8 @@
 
 ## Introduction
 
+> **NB: The iOS release of the Wacom Ink SDK for devices is due to be discontinued soon. Support for the Wacom Ink SDK for devices for iOS will no longer be offered.**
+
 ---
 
 The Wacom Ink SDK for devices incorporates the *Common Device Library* (CDL) supplied as a single library that can handle different types of pen or touch input from Wacom and third-party devices.
