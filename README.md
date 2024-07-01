@@ -2,7 +2,7 @@
 
 ## Introduction
 
-> **NB: The iOS release of the Wacom Ink SDK for devices is due to be discontinued soon. Support for the Wacom Ink SDK for devices for iOS will no longer be offered.**
+> **NB: This series of Wacom products is now discontinued and support for them is no longer offered.**
 
 ---
 
